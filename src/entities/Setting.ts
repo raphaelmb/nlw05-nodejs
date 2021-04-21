@@ -5,7 +5,7 @@ import { v4 as uuid } from 'uuid';
 class Setting {
     
     @PrimaryColumn()
-    id: string;
+    id?: string;
     
     @Column()
     username: string;
@@ -17,7 +17,7 @@ class Setting {
     updated_at: Date;
 
     @CreateDateColumn()
-    created_at: Date
+    created_at: Date;
 
     constructor() {
         if(!this.id) {
