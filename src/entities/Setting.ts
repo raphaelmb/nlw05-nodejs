@@ -5,7 +5,7 @@ import { v4 as uuid } from 'uuid';
 class Setting {
     
     @PrimaryColumn()
-    id?: string;
+    id: string;
     
     @Column()
     username: string;
