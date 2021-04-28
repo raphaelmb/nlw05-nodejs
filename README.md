@@ -24,7 +24,7 @@ http://localhost:3333/pages/client
 
 The admin's side is on the following path:
 ```
-http://localhost:3333//pages/admin
+http://localhost:3333/pages/admin
 ```
 
 
